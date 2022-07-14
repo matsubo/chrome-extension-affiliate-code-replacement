@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              {
+                "key": "tag",
+                "value": "ayatan1101a00-22"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "www.amazon.co.jp",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
