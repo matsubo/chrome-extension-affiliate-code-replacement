@@ -1,8 +1,13 @@
 # Amazon affiliate acode replacement
 
-Chrome extension.
+Chrome extension sample code.
 
-## build
+## Abstract
+
+- Rewrite www.amazon.co.jp's affiliate tag to specified affiliate code.
+- This plugin uses Chrome Extension manifest v3.
+
+## Build for deployment
 ```
 zip -r dist.zip .
 ```
